@@ -1,0 +1,66 @@
+:root {
+  --main-blue: rgb(76, 37, 185);
+  --white: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Navigation Bar */
+header {
+  background-color: var(--main-blue);
+}
+
+#nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20%;
+}
+
+.nav__logo {
+  display: flex;
+}
+
+.nav__logo img {
+  height: 50px;
+}
+
+.nav__logo p {
+  display: flex;
+  align-items: center;
+  line-height: 3;
+  font-size: 18px;
+  margin-left: 4px;
+}
+
+.nav__pages {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav__pages li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 4px;
+}
+
+.nav__pages ul {
+  display: flex;
+  list-style: none;
+}
+
+input[type="search"] {
+  border: none;
+  border-radius: 2px;
+  padding: 0 1rem;
+}
+
+input[type="search"]:focus {
+  color: var(--main-blue);
+}
+
+
