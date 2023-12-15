@@ -9,6 +9,20 @@
   font-family: sans-serif;
 }
 
+/* Major Changes */
+body {
+  background-color: #F3F1FF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
 /* Navigation Bar */
 header {
   background-color: var(--main-blue);
@@ -23,6 +37,10 @@ header {
 
 .nav__logo {
   display: flex;
+  cursor: pointer;
+}
+.nav__logo:hover {
+  scale: 1.1;
 }
 
 .nav__logo img {
@@ -32,6 +50,7 @@ header {
 .nav__logo p {
   display: flex;
   align-items: center;
+  color: black;
   line-height: 3;
   font-size: 18px;
   margin-left: 4px;
@@ -39,6 +58,7 @@ header {
 
 .nav__pages {
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
 }
 
@@ -63,4 +83,81 @@ input[type="search"]:focus {
   color: var(--main-blue);
 }
 
+/* Search Box */
+.search__button {
+  background-color: var(--white);
+  border: 1px solid #333;
+  color: #333;
+
+}
+
+/* Viewers Section */
+#viewers-section {
+  border-radius: 8px;
+  background-color: rgb(224, 224, 224);
+}
+
+.section-tittle {
+  margin: 24px;
+}
+
+.section-tittle h3 {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+}
+
+.top-viewers {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  gap: 12px;
+  margin: 10vh;
+}
+
+.user__container {
+  display: flex;
+  border-radius: 8px;
+  background-color: #F3F1FF;
+  padding: 4vh 24vh;
+  align-items: center;
+  justify-content: center;
+  margin-left: 6vh;
+  margin-bottom: 10vh;
+}
+
+.user__container p {
+  margin: 0;
+}
+
+.user__picture img {
+  width: 14vh;
+  height: 14vh;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 2vh;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+}
+
+.back-to-top a {
+  text-decoration: none;
+  color: #333;
+  padding: 10vh;
+}
+
+/* Audio Test */
+article {
+  display: flex;
+  justify-content: center;
+}
+
+.bark__audio {
+  background-color: var(--main-blue);
+  border-radius: 6px;
+}
 
