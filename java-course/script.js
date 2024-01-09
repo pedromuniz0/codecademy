@@ -1,9 +1,3 @@
-console.log(22222222222333333333333);
-
-// comment test
-
-console.log('I am testing this comment')
-
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
